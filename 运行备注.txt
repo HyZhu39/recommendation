@@ -1,0 +1,10 @@
+一共实现了三种算法
+ 基于协同过滤(UserCF)的模型、
+
+ 基于隐语义(LFM)的模型
+
+ 基于图(PersonalRank)的模型
+
+
+在连接了数据库的情况下直接"python run_system.py 目标推荐用户ID"，推荐结果为“recommend_result_用户ID”，推荐的结果数据为菜品ID。
+最终结果是结合了三种推荐结果的综合结果
